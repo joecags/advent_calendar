@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Advent Calendar</title>
+    <style>
+      body { background:#faf6f2; margin:2rem; }
+    </style>
+    <!-- React 18 UMD builds -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- Babel Standalone to transpile JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Load your component file (transpiled by Babel) -->
+    <script type="text/babel" data-presets="react" src="App.js"></script>
+
+    <!-- Mount it -->
+    <script type="text/babel" data-presets="react">
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+    </script>
+  </body>
+</html>
