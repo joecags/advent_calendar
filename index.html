@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Advent Calendar</title>
+    <link rel="stylesheet" href="style.css" />
     <style>
       body { background:#faf6f2; margin:2rem; }
     </style>
@@ -16,12 +18,6 @@
     <div id="root"></div>
 
     <!-- Load your component file (transpiled by Babel) -->
-    <script type="text/babel" data-presets="react" src="App.js"></script>
-
-    <!-- Mount it -->
-    <script type="text/babel" data-presets="react">
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(<App />);
-    </script>
+    <script type="text/babel" data-presets="react" src="app.js"></script>
   </body>
-</html>
+  </html>
