@@ -17,6 +17,21 @@
   <body>
     <div id="root"></div>
 
+    <script>
+      if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker
+          .register("./sw.js")
+          .then(reg => {
+            console.log("Service worker registered with scope:", reg.scope);
+          })
+          .catch(err => {
+            console.error("Service worker registration failed:", err);
+          });
+      });
+    }
+    </script>
+
     <!-- Load your component file (transpiled by Babel) -->
     <script type="text/babel" data-presets="react" src="app.js"></script>
   </body>
