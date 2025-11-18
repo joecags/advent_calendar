@@ -1,28 +1,7 @@
-{
-  "1": {
-    "title": "Christmas Under the Northern Lights",
-    "service": "Netflix",
-    "rating": "",
-    "notes": ""
-  },
-  "2": {
-    "title": "That Christmas",
-    "service": "Netflix",
-    "rating": "",
-    "notes": ""
-  },
-  "3": {
-    "title": "A Merry Little Ex-Mas",
-    "service": "Netflix",
-    "rating": "",
-    "notes": ""
-  },
-  "4": {
-    "title": "A Castle for Christmas",
-    "service": "Netflix",
-    "rating": "",
-    "notes": ""
-  },
+{ "1": {"title": "Christmas Under the Northern Lights","service": "Netflix","rating": "","notes": ""},
+  "2": {"title": "That Christmas","service": "Netflix","rating": "","notes": ""},
+  "3": {"title": "A Merry Little Ex-Mas","service": "Netflix","rating": "","notes": ""},
+  "4": {"title": "A Castle for Christmas","service": "Netflix","rating": "","notes": ""},
   "5": {
     "title": "Operation Christmas Drop",
     "service": "Netflix",

@@ -56,7 +56,7 @@ function Header({ days, setDays, onReset, onImport, onImportCsv}) {
 
   return (
     <div className="header">
-      <h1 className="title">🎄 Advent Calendar</h1>
+      <h1 className="title">🎄 Advent Calendar</h1> 
       <div className="controls">
         <input
           type="number"
