@@ -70,7 +70,7 @@ function Header({ days, setDays, onReset, onImport, onImportCsv}) {
         />
         <button className="button ghost" onClick={onReset}>Reset</button>
         <button className="button ghost" onClick={onImport}>Import JSON</button>
-        <button className="button ghost" onClick={onImportCsv}>Import CSV</button>
+        {/* <button className="button ghost" onClick={onImportCsv}>Import CSV</button> */}
 
       </div>
     </div>
